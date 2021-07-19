@@ -7,7 +7,6 @@ void Game::run() {
 
     sf::RenderWindow window(sf::VideoMode(windowSizeX, windowSizeY), "SFML Link Game", sf::Style::Close);
 
-    //Player player;
     player.setPosition(windowSizeX/2, 2000.0f);
 
     sf::View view(player.getSprite().getPosition(), sf::Vector2f(windowSizeX, windowSizeY));
